@@ -1,2 +1,6 @@
 class Neuron():
-    pass
+
+    def __init__(self):
+        self.inputs = []
+        self.weights = []
+        self.output = None
